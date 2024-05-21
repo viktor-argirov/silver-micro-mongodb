@@ -1,0 +1,4 @@
+{
+  "spec": "test/backend/**/*.test.js",
+  "require": ["@babel/register"]
+}

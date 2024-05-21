@@ -1,0 +1,120 @@
+
+.reservations-wrapper {
+    position: relative;
+    width: 1000px; 
+    height: auto; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+}
+
+
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reservations-table th,
+.reservations-table td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.reservations-table th {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.reservations-table td {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+
+.make-reservation-btn {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-0%, -32%); 
+    z-index: 1000;
+    width: 60%; 
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.modal.show {
+    display: table;
+}
+
+
+.modal-content {
+    margin: auto;
+    background-color: green;
+
+}
+
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db; 
+    color: #fff; 
+    font-weight: bold;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+.modal-content input,
+.modal-content textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #bdc3c7; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
